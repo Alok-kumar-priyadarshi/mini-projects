@@ -1,0 +1,18 @@
+*{
+    background-color: #212121;
+    color: aliceblue;  
+}
+.text{
+    letter-spacing: 2px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.timer{
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 20px;
+    padding:20px;
+    background-color: rgb(202, 251, 6);
+    color: #212121;
+    width: fit-content;
+}
