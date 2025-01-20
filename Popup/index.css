@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+
+}
+.btn{
+    padding: 30px 60px;
+    border-radius: 70px;
+    background-color: beige;
+    font-family:  "Oswald", serif ;
+    cursor: pointer;    
+}
+.btn:hover{
+    color: rgb(0, 247, 255);
+    text-underline-offset: 8px;
+}
+.btn2{
+    padding: 10px 40px;
+    border-radius: 70px;
+    background-color: rgb(220, 245, 231);
+    font-family:  "Oswald", serif ;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+    font-size: large;
+}
+.btn2:hover{
+    color: rgb(152, 237, 88);
+    text-underline-offset: 8px;
+}
+
+.popup{
+    box-sizing: border-box;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(242, 232, 180);
+    border: 1px solid rgb(96, 96, 96);
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    transform: translate(-50% -50%) ;
+    scale: 0.1;
+    visibility: hidden;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    transition: top 0.5s;
+    
+}
+
+.open-popup{
+    scale: 1;
+    top: 40%;
+    visibility: visible;
+    transform: translate(-50% -50%) ;
+
+}
+.para{
+    padding: 10px;
+}   
+.image{
+    width: 80px;
+    padding-top: 20px;
+}
