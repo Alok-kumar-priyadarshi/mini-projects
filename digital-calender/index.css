@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg,red,blue);
+}
+.cal{
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    padding: 0%;
+    position: relative;
+    margin: auto;
+    top: 30%;
+}
+.daynte{
+    width: 50%;    
+}
+.date{   
+    font-size: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.day{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.monyr{
+    background-color: rgba(228, 81, 81, 0.922);
+    width: 50%;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;      
+}
+
+.month{
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left: 20px;   
+}
+.year{
+    font-size: 35px;
+    margin-left: 10px;
+}
